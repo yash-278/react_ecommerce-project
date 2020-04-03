@@ -21,6 +21,11 @@
 
     .option {
       padding: 10px 15px;
+      cursor: pointer;
+
+      &:hover {
+        color: #104394;
+      }
     }
   }
 }
