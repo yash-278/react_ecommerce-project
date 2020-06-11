@@ -9,12 +9,14 @@
   background-color: black;
   color: white;
   text-transform: uppercase;
-  font-family: 'Open Sans Condensed';
+  font-family: "Open Sans Condensed";
   font-weight: bolder;
   border: none;
   cursor: pointer;
   display: flex;
   justify-content: center;
+  transition: 0.2s ease-in;
+  border: 1px solid black;
 
   &:hover {
     background-color: white;
@@ -25,10 +27,10 @@
   &.google-sign-in {
     background-color: #4285f4;
     color: white;
+    border: none;
 
     &:hover {
       background-color: #357ae8;
-      border: none;
     }
   }
 
@@ -38,6 +40,7 @@
     border: 1px solid black;
 
     &:hover {
+      // border: 1px solid black;
       background-color: black;
       color: white;
       border: none;
